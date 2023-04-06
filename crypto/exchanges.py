@@ -3,5 +3,7 @@ import ccxt
 exchanges = {
     'binance': ccxt.binance(),
     'kucoin': ccxt.kucoin2(),
-    'bittrex': ccxt.bittrex(),
+    'bybit': ccxt.bybit()
+    'gate.io': ccxt.gate.io()
+    'coinbase': ccxt.coinbase()
 }
